@@ -1,0 +1,136 @@
+/*global properties*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*body tag*/
+body{
+	background: #15202b;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/*logo and text-under-logo color*/
+.text-under-logo, 
+.first-logo{
+	color: #fff;
+}
+
+/*logo positioning*/
+.first-logo{
+ 	padding: 2rem;
+    margin-left: 14vw;
+}
+
+/*text under logo positioning*/
+.text-under-logo{
+	font-family: arial;
+	margin-top: .2rem;
+    text-align: center;
+  }
+ 
+  input{
+    border: none;
+    outline: none;
+  }
+
+ /*text in the input fixing*/
+ .text-of-email-input,
+ .text-of-password-input{
+ 	color: #8899a6;
+ 	font-family: roboto;
+  }
+
+/*input backgrounds*/
+ .email-input,
+ .password-input {
+    margin-top: 2rem;
+ 	background: #192734;
+ 	padding: 1rem;
+ 	border-bottom: 2px solid #8899a6;
+ 	width: 530px;
+ 	color: #fff;
+}
+
+
+/*transparenting inputs*/
+input{
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    width: 530px;
+    margin-left: -15px;
+    border: none;
+    outline: none;
+}
+
+  /*Log in button*/
+  .login-button{
+  margin-top: 2rem;
+  width: 520px;
+  padding: 1rem;
+  border-radius: 60px;
+  background:  #1da1f2;
+  opacity: .9;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family: arial;
+  font-size: 14px;
+  font-weight: bolder;
+  cursor: pointer;
+  } 
+ 
+
+
+ /*A tags*/
+
+ .aTags{
+    text-align: center;
+    margin-top: 10px;
+ }
+
+ a{
+    color: #1b95e0;
+    text-decoration: none;
+    font-family: roboto;
+    margin-right: 20px;
+}
+
+  /*dot span*/
+
+  span{
+  color: white;
+  opacity: .9;
+  margin-left: -20px;
+  }
+
+a:hover{
+	text-decoration: underline;
+}
+
+
+/********************MEDIA QURIES**********/
+@media (max-width: 598px) {
+
+    .first-logo{
+        margin-left: 20vw;
+    }
+
+    .inputs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .email-input, .password-input{
+        width: 70vw;
+    }
+
+    .login-button{
+        width: 70vw;
+    }
+}

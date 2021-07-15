@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*h4  floating beside the logo*/
+.password-reset-heading{
+	float: right;
+ 	margin-right: 60%;
+    line-height: 40px;
+    font-family: 'helvetica', sans-serif;
+    font-weight: lighter;
+    color: #66757f;
+}
+
+/*logo in the nav*/
+.logo-in-the-nav{
+	margin-left: 29%;
+	margin-top: .5rem;
+}
+
+/*whole nav placement*/
+.our-nav{
+	height: 6vh;
+	box-shadow: 1px 1px 1px 2px #dddddd;
+ }
+
+ /*text of finding*/
+ .finding-text{
+ 	margin-top: 60px;
+ 	margin-left: 29%;
+ 	font-size: 28px;
+ 	font-family: arial;
+ }
+
+ /*small text line*/
+ .small-txt-line{
+ 	font-family: arial;
+ 	font-size: 14px;
+   line-height: 18px;
+   margin-left: 29%;
+   margin-top: 40px;
+   color: #474747;
+ }
+
+ /*input*/
+ .the-input{
+   margin-left: 29%;
+   margin-top: 30px;
+   height: 30px;
+   width: 300px;
+   border-radius: 30px;
+   border: 1px solid #ddd;
+   padding: 20px;
+   font-size: 17px;
+   color: #292f33;
+ } 
+
+ /*search button*/
+ .search {
+  	margin-left: 29%;
+  	position: relative;
+  	top: 40px;
+  	background: #1da1f2;
+ 	color: white;
+ 	padding: 10px 15px;
+ 	border: none;
+ 	border-radius: 30px;
+ 	width: 100px;
+ 	font-weight: bolder;
+ 	letter-spacing: 1px;
+ 	cursor: pointer;
+ 	text-decoration: none;
+ 	font-family: arial;
+}
